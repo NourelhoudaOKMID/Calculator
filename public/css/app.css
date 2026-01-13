@@ -50,7 +50,7 @@ button{
     background-color: orange;
     color: white;
     border: 1px solid white;
-    border-radius: 50%;
+    border-radius: 25%;
     padding: 20px;
     cursor: pointer;
     font-size: 20px;
@@ -60,7 +60,10 @@ button{
 button:hover{
     background-color: #f7ae61;
 }
-
+.equal {
+    grid-column: span 2;
+    border-radius:20px ;
+}
 
 
 @media (max-width : 430px) {
