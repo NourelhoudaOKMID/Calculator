@@ -61,10 +61,51 @@ button{
     font-size: 20px;
 
 }
+button:active {
+    transform: scale(0.98);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
 
 button:hover{
     background-color: #f7ae61;
 }
+
+
+
+button:nth-child(4),
+button:nth-child(8),
+button:nth-child(12),
+button:nth-child(16),
+button:nth-child(19){
+    background-image: linear-gradient(145deg, #ff9f4a , #ff8c2e);
+    font-size:28px ;
+    font-weight: 300;
+}
+button:nth-child(4):hover , 
+button:nth-child(8):hover ,
+button:nth-child(12):hover , 
+button:nth-child(16):hover{
+    background-image: linear-gradient(155deg, #ffb570 , #ffa04d); 
+
+}
+
+
+
+button:nth-child(1),
+button:nth-child(2),
+button:nth-child(3)
+{
+    background: rgba(120, 90, 70, 0.6);
+    font-weight: 400;
+}
+button:nth-child(1):hover,
+button:nth-child(2):hover,
+button:nth-child(3):hover{
+    background: rgba(120, 90, 70, 0.6);
+
+}
+
+
 .equal {
     grid-column: span 2;
     border-radius:20px ;
